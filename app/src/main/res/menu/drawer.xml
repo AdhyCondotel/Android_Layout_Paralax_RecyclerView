@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_feature"
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/akun"
+            android:checked="false"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Akun" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/favorit"
+            android:checked="false"
+            android:icon="@drawable/ic_child_care_black_24dp"
+            android:title="@string/navigation_favorit" />
+
+        <item
+            android:id="@+id/order"
+            android:checked="false"
+            android:icon="@drawable/ic_child_care_black_24dp"
+            android:title="@string/navigation_order" />
+
+
+
+    </group>
+
+
+</menu>

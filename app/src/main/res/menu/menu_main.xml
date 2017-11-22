@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".kategori.MainActivity_Detail_Order">
+    <!--item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" /-->
+
+    <item
+        android:id="@+id/action_setting"
+        android:layout_height="100dp"
+        android:title="setting"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/action_order"
+        android:layout_height="100dp"
+        android:title="order"
+        app:showAsAction="never"
+        ></item>
+
+</menu>
